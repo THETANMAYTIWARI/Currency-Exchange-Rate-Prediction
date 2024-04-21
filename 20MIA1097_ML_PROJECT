@@ -34,7 +34,7 @@
       "outputs": [],
       "source": [
         "#For dataset import\n",
-        "url = \"https://raw.githubusercontent.com/utkarsh-aryan/Datasets-for-projects/main/forex.csv\"\n",
+        "url = \"PATH"\n",
         "dataset1 = pd.read_csv(url)"
       ]
     },
