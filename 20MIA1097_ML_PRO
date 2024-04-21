@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 import datetime
 
-filename = '/Users/utkarsharyan/Downloads/ML PRO PRO/finalized_model.sav'
+filename = 'PATH'
 regressor = pickle.load(open(filename, 'rb'))
 
 test_date = datetime.datetime.strptime("2022-12-01", "%Y-%m-%d")
@@ -73,10 +73,10 @@ root=Tk()
 root.title("SVM Currency Rate Predictor")
 root.geometry("1350x700+0+0")
 root.config(bg="blue")
-image=Image.open('/Users/utkarsharyan/Pictures/E-s42MaVgAAahX_.jpeg')
+image=Image.open('PATH')
 backgroundimage=ImageTk.PhotoImage(image)
 imagelabel1=Label(root, image=backgroundimage).place(x=0, y=0, relwidth=1, relheight=1)
-aboveimage=Image.open('/Users/utkarsharyan/Pictures/bq11j3vodmg71.png.webp')
+aboveimage=Image.open('PATH')
 abimage=ImageTk.PhotoImage(aboveimage)
 imagelabel=Label(root, image=abimage).place(x=200, y=120, width=400, height=500)
 
@@ -107,7 +107,7 @@ slot.current(0)
 
 btn1=Button(formframe, text="Predict", bg="green", font=("Times new roman", 15), fg="black", cursor="hand2", command = predictor).place(x=50, y=430, width=150)
 SIGNUP=Button(formframe, text="Cancel", bg="white", font=("Times new roman", 15), fg="black", cursor="hand2").place(x=300, y=430, width=150)
-title_label=Label( text="20MIA1155 Utkarsh Aryan, 20MIA1097 Tanmay Tiwari, 20MIA1146 Abhineet Raj", background="White", foreground="Black",padx=340, pady=4, font="Verdana 10 bold", borderwidth=3, relief=SUNKEN)
+title_label=Label( text="20MIA1097 Tanmay Tiwari", background="White", foreground="Black",padx=340, pady=4, font="Verdana 10 bold", borderwidth=3, relief=SUNKEN)
 title_label.pack(side=BOTTOM,fill="y")
 f1=Label(root,text="Currency Rate Prediction Mechanism", font=("times new roman", 30,"bold"),fg="white", bg="blue", bd=0)
 f1.pack(side=TOP, fill="x")
