@@ -68,3 +68,21 @@ python 20MIA1097_ML_PRO.py
 * Choose Time Period (1, 3, or 6 months)
 
 * Click Predict to visualize the forecasted rate trend.
+
+### 📂 Dataset Information
+
+* Dataset Source: https://raw.githubusercontent.com/utkarsh-aryan/Datasets-for-projects/main/forex.csv
+
+* Contains exchange rates for multiple currency pairs.
+
+* Columns include:
+
+   * date: Exchange date
+
+   * slug: Currency pair
+
+   * currency: Base currency
+
+   * close: Closing exchange rate
+
+   * Other relevant metadata for analysis
