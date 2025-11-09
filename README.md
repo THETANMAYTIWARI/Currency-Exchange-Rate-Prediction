@@ -86,3 +86,30 @@ python 20MIA1097_ML_PRO.py
    * close: Closing exchange rate
 
    * Other relevant metadata for analysis
+
+
+### 📊 Sample Visualizations
+
+* Currency Trend Analysis
+
+* Variation and Log-Variation Plots
+
+* Country-Based Consolidated Exchange Trends
+
+(All visualizations are generated directly from the notebook during EDA.)
+
+### 🧪 Technologies Used
+| Category             | Technologies                                                           |
+| -------------------- | ---------------------------------------------------------------------- |
+| Programming Language | Python 3.x                                                             |
+| Libraries            | NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn, OpenCV, Tkinter, PIL |
+| ML Algorithm         | Support Vector Regression (RBF Kernel)                                 |
+| Dataset Source       | Public Forex Dataset (CSV)                                             |
+
+### 👥 Contributors
+| Name              | Roll Number | Contribution                        |
+| ----------------- | ----------- | ----------------------------------- |
+| **Tanmay Tiwari** | 20MIA1097   | Model Development & Data Analysis   |
+| **Utkarsh Aryan** | 20MIA1155   | GUI Development & Model Integration |
+| **Abhineet Raj**  | 20MIA1146   | Documentation & Testing             |
+
